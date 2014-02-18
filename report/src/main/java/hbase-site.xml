@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+
+<property>
+<name>hbase.rootdir</name>
+<value>file:///D:/Personal/Profile/Desktop/_work/15/hbase</value>
+</property>
+
+<property>
+<name>hbase.cluster.distributed</name>
+<value>true</value>
+</property>
+
+<property>
+<name>hbase.zookeeper.quorum</name>
+<value>10.10.30.183</value>
+</property>
+
+<property>
+<name>hbase.zookeeper.property.clientPort</name>
+<value>5181</value>
+</property>
+
+<property>
+<name>dfs.support.append</name>
+<value>true</value>
+</property>
+
+<property>
+<name>fs.mapr.aggregate.writes</name>
+<value>false</value>
+</property>
+
+<property>
+<name>fs.mapr.readbuffering</name>
+<value>false</value>
+</property>
+
+<property>
+<name>hbase.fsutil.maprfs.impl</name>
+<value>org.apache.hadoop.hbase.util.FSMapRUtils</value>
+</property>
+
+<property>
+  <name>hbase.regionserver.handler.count</name>
+  <value>30</value> <!-- default is 25 -->
+</property>
+
+</configuration>
